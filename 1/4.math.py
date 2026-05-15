@@ -34,6 +34,6 @@ num1 = abs(num1)  # Using the built-in abs() function to get the absolute value 
 
 print(num1)  # Output: 10
 
-radius = num1  # Assigning num1 to radius for calculating the area of a circle
+radius = int(input("Enter the radius of the circle: "))  # Taking user input for the radius
 area_of_circle = math.pi * radius ** 2  # Using the formula for the area of a circle (A = πr^2) to calculate the area based on the radius   
 print(f"The area of the circle with radius {radius} is: {area_of_circle}")  # Displaying the calculated area of the circle
